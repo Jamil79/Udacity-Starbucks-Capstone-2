@@ -4,23 +4,41 @@ This work is due as final project of the data science program of Udacity.
 Libraries used:
 
 import pandas as pd
+
 import numpy as np
+
 import math
+
 import json
+
 from datetime import datetime
+
 from time import time
+
 import matplotlib.pyplot as plt
+
 import seaborn as sns
+
 import warnings
+
 warnings.filterwarnings("ignore")
+
 from sklearn.naive_bayes import GaussianNB
+
 from sklearn.ensemble import AdaBoostClassifier
+
 from sklearn.metrics import accuracy_score,f1_score
+
 from sklearn.model_selection import train_test_split,GridSearchCV
+
 from sklearn.naive_bayes import GaussianNB
+
 from sklearn.neighbors import KNeighborsClassifier
+
 from sklearn.svm import SVC
+
 from sklearn.tree import DecisionTreeClassifier
+
 from sklearn.preprocessing import MinMaxScaler
 
 Project motivation:
